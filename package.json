@@ -1,0 +1,12 @@
+{
+  "name": "selenium-bdd-sauce-ui-testing",
+  "version": "1.0.0",
+  "description": "UI testing for Sauce Labs using Selenium with BDD style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafail Ferre",
+  "license": "ISC"
+}
