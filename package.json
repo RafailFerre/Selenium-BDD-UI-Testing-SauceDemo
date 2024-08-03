@@ -4,9 +4,20 @@
   "description": "UI testing for Sauce Labs using Selenium with BDD style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha specs/*.js",
+    "test:bdd": "cucumber-js features/*.feature",
+    "test:bdd:format": "cucumber-js --format @cucumber/pretty-formatter features/*.feature"
   },
   "keywords": [],
   "author": "Rafail Ferre",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.7.0",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.1"
+  }
 }
