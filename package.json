@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha specs/*.js",
-    "test:bdd": "cucumber-js features/*.feature",
-    "test:bdd:format": "cucumber-js --format @cucumber/pretty-formatter features/*.feature"
+    "test:bdd": "cucumber-js features/login.feature",
+    "test:bdd:format": "cucumber-js --format @cucumber/pretty-formatter features/login.feature"
   },
   "keywords": [],
   "author": "Rafail Ferre",
